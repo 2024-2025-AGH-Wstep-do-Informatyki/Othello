@@ -1,6 +1,6 @@
 # Othello ⚪ :arrows_counterclockwise: :black_circle:
 
-Projekt **Othello** to implementacja popularnej gry planszowej Othello (znanej także jako Reversi) w języku Python. Gra oferuje możliwość rozgrywki zarówno przeciwko drugiemu graczowi, jak i prostemu botowi AI, który stosuje strategię bazującą na podstawowej analizie ruchów. Projekt ten ma na celu tylko zapewnienie rozrywki.
+Projekt **Othello** to implementacja popularnej gry planszowej Othello (znanej także jako Reversi) w języku Python. Gra oferuje możliwość rozgrywki przeciwko drugiemu graczowi. Projekt ten ma na celu tylko zapewnienie rozrywki.
 
 ## Funkcjonalności
 
