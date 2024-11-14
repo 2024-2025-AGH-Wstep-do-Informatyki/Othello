@@ -11,5 +11,5 @@ jobs:
     - name: Dodaj zgłoszenie do projektu
       uses: actions/add-to-project@v0.4.0
       with:
-        project-url: https://github.com/2024-2025-AGH-Wstep-do-Informatyki/Othello 
+        project-url: https://github.com/orgs/2024-2025-AGH-Wstep-do-Informatyki/projects/15
         github-token: ${{ secrets.GITHUB_TOKEN }} 
