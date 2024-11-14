@@ -1,0 +1,15 @@
+name: Item added to project
+
+on:
+  issues:
+    types: [opened] 
+
+jobs:
+  add_to_project:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Dodaj zgłoszenie do projektu
+      uses: actions/add-to-project@v0.4.0
+      with:
+        project-url: https://github.com/2024-2025-AGH-Wstep-do-Informatyki/Othello 
+        github-token: ${{ secrets.GITHUB_TOKEN }} 
