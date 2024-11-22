@@ -9,3 +9,14 @@ Projekt implementuje następujące kluczowe funkcje:
 - **Wizualizacja planszy :white_square_button:** — dynamiczna plansza 8x8, która pokazuje stan gry w czasie rzeczywistym.
 - **Sprawdzanie poprawności ruchów :heavy_check_mark:/:x:** — mechanizm walidacji, który umożliwia jedynie dozwolone ruchy zgodnie z zasadami Othello.
 - **Licznik punktów :memo:** — wyświetla aktualny wynik każdego z graczy.
+
+<details><summary>Przydatne materiały referencyjne</summary>
+<p>
+
+### [Zasady gry](https://www.worldothello.org/about/about-othello/othello-rules/official-rules/english)
+### [Historia gry](https://www.worldothello.org/about/about-othello/othello-rules/official-rules/english)
+### [Gra online](https://www.eothello.com/)
+
+
+</p>
+</details>
