@@ -1,0 +1,14 @@
+## Rozmiar planszy
+
+BOARD_SIZE = 8
+WHITE, BLACK, EMPTY = 1, -1, 0
+
+## Tworzenie planszy początkowej
+## Początkowa funkcja która tworzy nam dwumymiarowa liste, na której bedziemy pracować od tego momentu.
+
+def create_board():
+    board = [[EMPTY for _ in range(BOARD_SIZE)] for _ in range(BOARD_SIZE)]
+    # Ustawianie początkowych pionków
+    board[3][3], board[4][4] = WHITE, WHITE
+    board[3][4], board[4][3] = BLACK, BLACK
+    return board
