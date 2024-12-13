@@ -1,0 +1,19 @@
+### Poniżej zamieszczam funkcje obsługujące poprawność wykonywanych ruchów na planszy ###
+
+# Funkcja *is_valid_move* sprawdza, czy ruch jest w ogóle "legalny" 
+
+def is_valid_move(board, row, col, color):
+    if row < 0 or row >= BOARD_SIZE or col < 0 or col >= BOARD_SIZE:
+        return False
+    if board[row][col] != EMPTY:
+        return False
+
+
+# Funkcja *get_valid_moves* zwraca wszystkie możliwe ruchy do wykonania przez dany kolor pionów 
+def get_valid_moves(board, color):
+    valid_moves = []
+    for row in range(BOARD_SIZE):
+        for col in range(BOARD_SIZE):
+            if is_valid_move(board, row, col, color):
+                valid_moves.append((row, col))
+    return valid_moves
